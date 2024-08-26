@@ -16,7 +16,7 @@
 
     <PageLoader v-if="loading" />
 
-    <div class="list-container">
+    <div v-if="items.length" class="list-container">
       <transition-group name="list" tag="div">
         <component :is="componentType" v-for="item in items" :key="item.id" :item="item" />
       </transition-group>

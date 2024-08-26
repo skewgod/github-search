@@ -4,7 +4,7 @@
       v-model="username"
       @keyup.enter="triggerSearch"
       type="text"
-      placeholder="Enter GitHub username"
+      placeholder="Search GitHub"
       class="search-input"
     />
     <button @click="triggerSearch" class="search-button">Search</button>

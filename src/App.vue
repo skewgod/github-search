@@ -43,7 +43,7 @@ export default {
     return {
       items: [],
       loading: false,
-      searchType: 'repositories' // Default search type
+      searchType: 'users'
     }
   },
   computed: {

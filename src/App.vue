@@ -103,10 +103,11 @@ export default {
 }
 
 .list-container {
-  max-height: calc(100vh - 200px);
+  max-height: calc(100vh - 240px);
   max-width: 50%;
   overflow-y: auto;
   padding: 10px;
+  border: 1px solid #ccc;
   border-radius: 5px;
 
   margin: 0 auto;
